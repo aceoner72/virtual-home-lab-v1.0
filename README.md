@@ -1,14 +1,15 @@
 # Virtual Home Lab
 
 This project simlulates a multi-VLAN home netowork using Cisco Packet Tracer. 
-It demonstrates inter-VLAN routing, DHCP, DNS, and NAT configurations to replicate real-world networking concepts within a virtual environment. 
+It demonstrates inter-VLAN routing, DHCP, DNS, and NAT configurations to replicate real-world networking concepts within a virtual environment and no physical hardware. 
 
-## Features
-- Multi-VLAN segmentation (Admin, Users, Servers)
-- Inter-VLAN routing with DHCP for dynamic addressing
-- DNS services for hostname resolution
-- NAT for internet connectivity simulation
-- Hands-on ACL testing and troubleshooting
+## Overview 
+- Designed and implemented a multi-VLAN topology (Admin, Users, Servers).
+- Configured inter-VLAN routing, DHCP, DNS, and NAT segmented internal networks with centralized services.
+- Tested connectivity and troubleshooting across VLANs to reinforce networking fundamentals.
+
+## Purpose
+The goal of this lab was to gain hands-on experience with Cisco networking concepts, practice core configurations, and develop troubleshooting skills in a virtual environment. 
 
 ## Outcome 
-Gained practical experience in network design, protocol configuration, and troubleshooting. 
+Successfully built a functional network simulation that mirrors enterprise-style setups, strengthening skills in network design, protocol configuration, and problem-solving.
