@@ -16,3 +16,31 @@ Successfully built a functional network simulation that mirrors enterprise-style
 
 ## Network Topology 
 ![Network Topology](topology.png)
+
+## Configuration Highlights 
+- **VLANs**: VLAN 10 (Admin), VLAN 20 (Users), VLAN 30 (Servers).
+- **Routing**: Inter-VLAN routing with subinterfaces.
+- **Services**: DHCP, DNS, and NAT for internet access.
+- **Access Control**: Tested ACLs to restrict traffic between VLANs
+
+## Testing & Results 
+- Verified connectivity between VLANs.  
+- Confirmed DNS resolution from client PCs.  
+- ACL testing validated controlled access.  
+
+**Examples:**  
+
+![DNS Test](dns_test.png)  
+*DNS resolution from VLAN 20 PC to DNS server in VLAN 30.*  
+
+![Ping Test](ping_test.png)  
+*Ping test between Admin VLAN and Server VLAN.*  
+
+## Lessons Learned
+- How ACL placement (inbound vs outbound) impacts packet flow.  
+- The importance of testing services (like DNS) when applying security rules.  
+- How to troubleshoot connectivity issues in a simulated environment.  
+
+## Tools
+- Cisco Packet Tracer  
+- GitHub (for documentation)  
