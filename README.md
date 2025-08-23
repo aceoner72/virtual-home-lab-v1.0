@@ -13,3 +13,6 @@ The goal of this lab was to gain hands-on experience with Cisco networking conce
 
 ## Outcome 
 Successfully built a functional network simulation that mirrors enterprise-style setups, strengthening skills in network design, protocol configuration, and problem-solving.
+
+## Network Topology 
+![Network Topology](topology.png)
