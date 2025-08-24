@@ -1,0 +1,8 @@
+## SETTING UP THE NETWORK ENVIRONMENT  
+**Step 1: Set Up the Initial Topology**
+We will start wth two PCs, a 2960-switche, a 2911 router, and a server with DHCP
+
+**Step2: Set the IP Addresses**
+Manually set the IP address for the router and the server 
+Router: 192.168.1.1 / 24 | default gateway: 192.168.1.1    (Make sure it's turned on)
+Server: 192.168.1.2 / 24 | default gateway: 192.168.1.1
