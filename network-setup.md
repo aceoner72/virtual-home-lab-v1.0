@@ -16,7 +16,7 @@ Click on the server, navigate to services, select DHCP
 - Add the new pool and turn on the service
 - **Make sure the serverPool's subnet mask is 0.0.0.0 or else it will conflict with our newly created pool** 
 
-** Step 4: Test DHCP on the PCs**
+**Step 4: Test DHCP on the PCs**
 Go to each PC and configure the network to get an IP address from the DHCP server
 - In the IP config settings, enable a DHCP assignment
 - Can test assignment by pinging
