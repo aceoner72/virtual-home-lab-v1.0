@@ -28,14 +28,6 @@ Successfully built a functional network simulation that mirrors enterprise-style
 - Confirmed DNS resolution from client PCs.  
 - ACL testing validated controlled access.  
 
-**Examples:**  
-
-![DNS Test](dns_test.png)  
-*DNS resolution from VLAN 20 PC to DNS server in VLAN 30.*  
-
-![Ping Test](ping_test.png)  
-*Ping test between Admin VLAN and Server VLAN.*  
-
 ## Lessons Learned
 - How ACL placement (inbound vs outbound) impacts packet flow.  
 - The importance of testing services (like DNS) when applying security rules.  
