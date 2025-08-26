@@ -2,7 +2,7 @@
 **Step 1: Set Up the Initial Topology**  
 We will start wth two PCs, a 2960-switch, a 2911 router, and a server with DHCP
 
-![Initial Topology](Step1-InitialTopology.png)  
+![Initial Topology](images/Step1-InitialTopology.png)  
 *Initially planned network*
 
 **Step2: Set the IP Addresses**  
@@ -27,5 +27,5 @@ Go to each PC and configure the network to get an IP address from the DHCP serve
 - Double check default gateway was set
 
 
-![DHCP Assignment](Step4-DHCP.png)  
+![DHCP Assignment](images/Step4-DHCP.png)  
 *DHCP address assignment for end devices*
