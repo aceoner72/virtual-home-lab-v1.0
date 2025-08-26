@@ -6,7 +6,7 @@ Add another router to the topology that connects to the "home" network
   - Home router Gig 0/1: 203.0.113.2 / 24
   - ISP/Internet Gig 0/0: 203.0.113.1 / 24
   
-![ISP/Internet Router](Step5-InternetRouter.png)  
+![ISP/Internet Router](images/Step5-InternetRouter.png)  
 *Simulate internet access*
 
 **Step 6: Configure a NAT**  
@@ -38,7 +38,7 @@ Configure NAT for the home router using CLI
   - end
 - Test with a ping to 203.0.113.1 from a PC to confirm it worked  
 
-![NAT ping test](Step6-NAT.png)  
+![NAT ping test](images/Step6-NAT.png)  
 *Tested ping to make sure NAT is functional*
 
 **Step 7: Simulate a Public Web Server**  
@@ -56,5 +56,5 @@ Add a switch and a server to the Internet-side network
     (routes traffic for public IP to private IP)  
 - Test if PC can ping the server's public IP 203.0.113.10  
 
-![Public to Private IP Routing](Step7-SimulatedWeb.png)  
+![Public to Private IP Routing](images/Step7-SimulatedWeb.png)  
 *Set a public to private IP routing*
