@@ -15,7 +15,7 @@ The goal of this lab was to gain hands-on experience with Cisco networking conce
 Successfully built a functional network simulation that mirrors enterprise-style setups, strengthening skills in network design, protocol configuration, and problem-solving.
 
 ## Network Topology 
-![Network Topology](topology.png)
+![Network Topology](FinalTopology.png)  
 
 ## Configuration Highlights 
 - **VLANs**: VLAN 10 (Admin), VLAN 20 (Users), VLAN 30 (Servers).
