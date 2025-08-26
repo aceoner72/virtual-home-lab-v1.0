@@ -37,5 +37,30 @@ Enable a trunk to and from the router which will allow mutiple VLANs to communic
 -  Check and confirm VLAN assignments and trunk
   - show vlan brief
 
+![Show VLANs and Trunk](Step13-VlanTrunk.png)  
+*Show successful VLAN and trunk creation*
+
 **Step 14: Configure Router Sub-interfaces for Inter-VLAN routing**  
 This is needed so that devices within one VLAN are able to communicate with a device in another VLAN.
+
+- Go to the CLI of the home router to configure sub-interfaces with VLAN IDs
+- Admin
+    - in g 0/0.10
+    - encap dot1Q 10
+    - ip address 192.168.10.1 255.255.255.0
+    - exit
+- Users
+    - in g 0/0.20
+    - encap dot1Q 20
+    - ip address 192.168.20.1 255.255.255.0
+    - exit
+- Servers
+    - in g 0/0.30
+    - encap dot1Q 30
+    - ip address 192.168.30.1 255.255.255.0
+    - exit
+- Can check if it was created with "show run"
+
+![Show sub-interfaces](Step14-subinterface.png)  
+*Show sub-interface creation*
+
