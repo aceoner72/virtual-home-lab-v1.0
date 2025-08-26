@@ -27,7 +27,7 @@ This will help to still automatically assign addresses using DHCP within the dif
  
 - Need to re-configure each PC so they get a new DHCP assignment from our new pool
 
-![Show new DHCP assignment](Step15-NewDHCP.png)  
+![Show new DHCP assignment](images/Step15-NewDHCP.png)  
 *Show the new DHCP assignment*
 
 - Also re-assign the IP address and default gateway of the servers
@@ -36,7 +36,7 @@ This will help to still automatically assign addresses using DHCP within the dif
   - default gateway: 192.168.30.1
 - Test the inter-VLAN routing by pinging a device on a different VLAN
 
-![Test DHCP with Ping](Step15-TestPing.png)  
+![Test DHCP with Ping](images/Step15-TestPing.png)  
 *Test the inter-VLAN routing*
 
 **Step 16: Re-configure the NAT**  
@@ -61,5 +61,5 @@ We need to update the inside/outside NAT to account for the new sub-interfaces w
  
 ## Final Topology
 
-![Final Network Topology](FinalTopology.png)  
+![Final Network Topology](images/FinalTopology.png)  
 *Final Network Topology*
