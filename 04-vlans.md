@@ -37,7 +37,7 @@ Enable a trunk to and from the router which will allow mutiple VLANs to communic
 -  Check and confirm VLAN assignments and trunk
   - show vlan brief
 
-![Show VLANs and Trunk](Step13-VlanTrunk.png)  
+![Show VLANs and Trunk](images/Step13-VlanTrunk.png)  
 *Show successful VLAN and trunk creation*
 
 **Step 14: Configure Router Sub-interfaces for Inter-VLAN routing**  
@@ -61,6 +61,6 @@ This is needed so that devices within one VLAN are able to communicate with a de
     - exit
 - Can check if it was created with "show run"
 
-![Show sub-interfaces](Step14-subinterface.png)  
+![Show sub-interfaces](images/Step14-subinterface.png)  
 *Show sub-interface creation*
 
